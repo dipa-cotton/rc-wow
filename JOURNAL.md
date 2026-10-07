@@ -15,7 +15,7 @@
 ## Contents
 
 1. [2026-10-07 – I worked on the schematic for today! I am using an SX1276 chip to communicate with the RC car over long distances. I made a transceiver that can be put in the car and in the remote control as well. Si](#2026-10-07-i-worked-on-the-schematic-for-today-i-am-using-an)
-2. [2026-10-07 – Work session](#2026-10-07-work-session)
+2. [2026-10-07 – I did a LOT of changes since last work session! I changed the chip i'm using from an SX1276 to an LR1121! I also implemented a feature that lets me switch from 915 MHz to 2.4 GHz, which is pretty frea](#2026-10-07-i-did-a-lot-of-changes-since-last-work-session-i-)
 
 ## Design
 
@@ -31,8 +31,24 @@ I also calculated the width of the traces needed to make sure the car doesn't, l
 ![Screenshot 2026-10-07 at 1.00.31 AM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/NBJ0hooRCzpXBFkBB07YJmm7WhL2zJ1p/c205eaae18d3c9dea1741be7a96f87a48675fed5abad42ed928392d13ea46e07.png)
 ![Screenshot 2026-10-07 at 1.00.58 AM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/NBJ0hooRCzpXBFkBB07YJmm7WhL2zJ1p/e786c0da78409b40d100000fb51931833353ce9fa71b42db0a1696578647d954.png)
 
-### 2026-10-07 – Work session
+### 2026-10-07 – I did a LOT of changes since last work session! I changed the chip i'm using from an SX1276 to an LR1121! I also implemented a feature that lets me switch from 915 MHz to 2.4 GHz, which is pretty frea
 
 **7.68h**
+
+I did a LOT of changes since last work session! I changed the chip i'm using from an SX1276 to an LR1121! I also implemented a feature that lets me switch from 915 MHz to 2.4 GHz, which is pretty freaking awesome for me cuz I have an RC controller I can use! Anyways, the schematic is pretty much done, I have to implement a couple  of additional things so that the radio can, you know, interact with the car itself, but the main logic is completed.
+
+![Screenshot 2026-10-07 at 7.31.59 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/NBJ0hooRCzpXBFkBB07YJmm7WhL2zJ1p/2ab68d15fa3af38a0f20f499e861a9c0c2248826558c76f925f39fd4c532d37e.png)
+
+![Screenshot 2026-10-07 at 7.32.08 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/NBJ0hooRCzpXBFkBB07YJmm7WhL2zJ1p/19243805291151224968be5077d7a852e5691a323371272018b25ecb1f03fbc1.png)
+
+![Screenshot 2026-10-07 at 7.32.20 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/NBJ0hooRCzpXBFkBB07YJmm7WhL2zJ1p/c427cb13f732d30ab35beeb781089dfb3fdda3f0f3f4713248a3f328a5374561.png)
+
+![Screenshot 2026-10-07 at 7.32.36 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/NBJ0hooRCzpXBFkBB07YJmm7WhL2zJ1p/ccc1c729c965e7544152906b2d60f2ea5ff54e5c5885e89702301f49a9bb5f93.png)
+
+![Screenshot 2026-10-07 at 7.32.50 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/NBJ0hooRCzpXBFkBB07YJmm7WhL2zJ1p/d56936b73b17213ec4ffad1f9edf987d14030eb1016d5aad6fb40e5e4c3fe2ba.png)
+
+![Screenshot 2026-10-07 at 7.33.06 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/NBJ0hooRCzpXBFkBB07YJmm7WhL2zJ1p/6fce21ca0108fe155e82dbc46a6b43e24e1a78e92e51ac29399d56f9d9974897.png)
+
+![Screenshot 2026-10-07 at 7.33.15 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/NBJ0hooRCzpXBFkBB07YJmm7WhL2zJ1p/2854a268fdece66bd7a726d40de008e81894cb105e05d5fde347cd11d2cc4336.png)
 
 [Timelapse](https://lookout.hackclub.com/api/media/02a750ff-3a3f-48fb-83f1-b1601ed64d71/video.mp4)

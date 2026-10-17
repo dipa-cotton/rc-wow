@@ -9,6 +9,7 @@ this project contains a LR1121, ESP32, a microSD card, a USBC receptical, a spot
 <img width="1089" height="729" alt="Screenshot 2026-10-11 at 3 38 23 PM" src="https://github.com/user-attachments/assets/864fdd39-2c9a-49f3-88ac-9fbf5a363d7c" />
 <img width="341" height="729" alt="Screenshot 2026-10-11 at 3 38 09 PM" src="https://github.com/user-attachments/assets/c6e39acd-50fe-4dc1-9ecd-0e02c6dcc3eb" />
 ## bom
+> mirrored from half life!
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
 | [Battery Pack](https://www.aliexpress.us/item/3256807960114360.html?spm=a2g0o.productlist.main.5.39824e89DQM4MS&algo_pvid=d329b116-0440-409c-9837-9a318ca811aa&algo_exp_id=d329b116-0440-409c-9837-9a318ca811aa-4&pdp_ext_f=%7B%22order%22%3A%225531%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%210.66%210.53%21%21%214.40%213.56%21%402101ca8b17911630376702872e136a%2112000043984702436%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A2a9d23e2%3Bm03_new_user%3A-29895&curPageLogUid=OKZYJvWZM2wn&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008146429112%7C_p_origin_prod%3A) | Battery | 1 | $0.50 | $0.50 | [Aliexpress](https://www.aliexpress.us/item/3256807960114360.html?spm=a2g0o.productlist.main.5.39824e89DQM4MS&algo_pvid=d329b116-0440-409c-9837-9a318ca811aa&algo_exp_id=d329b116-0440-409c-9837-9a318ca811aa-4&pdp_ext_f=%7B%22order%22%3A%225531%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%210.66%210.53%21%21%214.40%213.56%21%402101ca8b17911630376702872e136a%2112000043984702436%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A2a9d23e2%3Bm03_new_user%3A-29895&curPageLogUid=OKZYJvWZM2wn&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008146429112%7C_p_origin_prod%3A) |
@@ -30,5 +31,6 @@ this project contains a LR1121, ESP32, a microSD card, a USBC receptical, a spot
 | [PCB](https://jlcpcb.com) | PCB for all components | 1 | $13.00 | $13.00 | [JLCPCB](https://jlcpcb.com) |
 | **Parts subtotal** | — | — | — | **$67.60** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
+| **Total** | — | — | — | **$67.60** | — |
 ## notes
 this should hopefully work! i had to calculate impedance for the RF traces and such, and it should work fine. however, updates may be pushed and future versions may be made :D also i have a HAM radio license so double check that things are legal on your end.

@@ -9,28 +9,26 @@ this project contains a LR1121, ESP32, a microSD card, a USBC receptical, a spot
 <img width="1089" height="729" alt="Screenshot 2026-10-11 at 3 38 23 PM" src="https://github.com/user-attachments/assets/864fdd39-2c9a-49f3-88ac-9fbf5a363d7c" />
 <img width="341" height="729" alt="Screenshot 2026-10-11 at 3 38 09 PM" src="https://github.com/user-attachments/assets/c6e39acd-50fe-4dc1-9ecd-0e02c6dcc3eb" />
 ## bom
-> mirrored from half life!
-| Part | What it's for | Qty | Unit | Total | Vendor |
-| --- | --- | --- | --- | --- | --- |
-| [Battery Pack](https://www.aliexpress.us/item/3256807960114360.html?spm=a2g0o.productlist.main.5.39824e89DQM4MS&algo_pvid=d329b116-0440-409c-9837-9a318ca811aa&algo_exp_id=d329b116-0440-409c-9837-9a318ca811aa-4&pdp_ext_f=%7B%22order%22%3A%225531%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%210.66%210.53%21%21%214.40%213.56%21%402101ca8b17911630376702872e136a%2112000043984702436%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A2a9d23e2%3Bm03_new_user%3A-29895&curPageLogUid=OKZYJvWZM2wn&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008146429112%7C_p_origin_prod%3A) | Battery | 1 | $0.50 | $0.50 | [Aliexpress](https://www.aliexpress.us/item/3256807960114360.html?spm=a2g0o.productlist.main.5.39824e89DQM4MS&algo_pvid=d329b116-0440-409c-9837-9a318ca811aa&algo_exp_id=d329b116-0440-409c-9837-9a318ca811aa-4&pdp_ext_f=%7B%22order%22%3A%225531%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%210.66%210.53%21%21%214.40%213.56%21%402101ca8b17911630376702872e136a%2112000043984702436%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A2a9d23e2%3Bm03_new_user%3A-29895&curPageLogUid=OKZYJvWZM2wn&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008146429112%7C_p_origin_prod%3A) |
-| [SD Card](https://www.mouser.com/en/ProductDetail/Wurth-Elektronik/693072010801?qs=7gQLVZk5cPmw4uU1mAcUFg%3D%3D&srsltid=AU7gw4V8egOV4imH1Qo4UmfWx8BpqD6V1767jmgX_Gd4EJ4MfCTE70Q7) | SD Card reader | 1 | $3.50 | $3.50 | [Mouser](https://www.mouser.com/en/ProductDetail/Wurth-Elektronik/693072010801?qs=7gQLVZk5cPmw4uU1mAcUFg%3D%3D&srsltid=AU7gw4V8egOV4imH1Qo4UmfWx8BpqD6V1767jmgX_Gd4EJ4MfCTE70Q7) |
-| [USBC Receptacle](https://www.digikey.com/en/products/detail/gct/USB4085-GF-A/9859662) | USB plugin! | 1 | $1.00 | $1.00 | [Digikey](https://www.digikey.com/en/products/detail/gct/USB4085-GF-A/9859662) |
-| [Schottsky Diode](https://www.aliexpress.us/item/3256808944462819.html?spm=a2g0o.productlist.main.14.793f4551ZydogY&algo_pvid=977f4b9b-2387-48cc-8eed-0d31a7b87a4b&algo_exp_id=977f4b9b-2387-48cc-8eed-0d31a7b87a4b-13&pdp_ext_f=%7B%22order%22%3A%227%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%213.39%213.39%21%21%213.39%213.39%21%402101e75417917450282128049e0e35%2112000048022323150%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A125d364a%3Bm03_new_user%3A-29895&curPageLogUid=KgrYHKuATPY6&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009130777571%7C_p_origin_prod%3A) | signal clearance | 1 | $3.50 | $3.50 | [aliexpress](https://www.aliexpress.us/item/3256808944462819.html?spm=a2g0o.productlist.main.14.793f4551ZydogY&algo_pvid=977f4b9b-2387-48cc-8eed-0d31a7b87a4b&algo_exp_id=977f4b9b-2387-48cc-8eed-0d31a7b87a4b-13&pdp_ext_f=%7B%22order%22%3A%227%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%213.39%213.39%21%21%213.39%213.39%21%402101e75417917450282128049e0e35%2112000048022323150%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A125d364a%3Bm03_new_user%3A-29895&curPageLogUid=KgrYHKuATPY6&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009130777571%7C_p_origin_prod%3A) |
-| [Ferrite Bead](https://www.digikey.com/en/products/detail/laird-signal-integrity-products/28C0236-0JW-10/806596) | ferrite bead | 1 | $1.10 | $1.10 | [Digikey](https://www.digikey.com/en/products/detail/laird-signal-integrity-products/28C0236-0JW-10/806596) |
-| [0900FM15K0039001E](https://www.digikey.com/en/products/detail/johanson-technology-inc/0900FM15K0039001E/16639329?s=N4IgTCBcDaIAwE45wGIFkCMBWA0sgzAiALoC%2BQA) | switching between frequencies | 2 | $0.50 | $1.00 | [Digikey](https://www.digikey.com/en/products/detail/johanson-technology-inc/0900FM15K0039001E/16639329?s=N4IgTCBcDaIAwE45wGIFkCMBWA0sgzAiALoC%2BQA) |
-| [0900DP15A2450001E](https://www.digikey.com/en/products/detail/johanson-technology-inc/0900DP15A2450001E/7943531) | switching between frequencies | 1 | $1.00 | $1.00 | [Digikey](https://www.digikey.com/en/products/detail/johanson-technology-inc/0900DP15A2450001E/7943531) |
-| [ESP32 WROOM 1](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N8R8/15295891) | esp 32, controls basically everything | 1 | $7.00 | $7.00 | [Digikey](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N8R8/15295891) |
-| [PE4259](https://www.digikey.com/en/products/detail/psemi/4259-63/2614473) | PE4259, switching between frequencies | 3 | $1.00 | $3.00 | [Digikey](https://www.digikey.com/en/products/detail/psemi/4259-63/2614473) |
-| [XC6220B331MR-G](https://www.digikey.com/en/products/detail/torex-semiconductor-ltd/XC6220B331MR-G/2138177?s=N4IgTCBcDaIBoGEBsYwAYBCBmLBGAsgEogC6AvkA) | Power | 1 | $1.00 | $1.00 | [Digikey](https://www.digikey.com/en/products/detail/torex-semiconductor-ltd/XC6220B331MR-G/2138177?s=N4IgTCBcDaIBoGEBsYwAYBCBmLBGAsgEogC6AvkA) |
-| [LR1121IMLTRT](https://www.digikey.com/en/products/detail/semtech-corporation/LR1121IMLTRT/17874420?s=N4IgTCBcDaIDICUCMSxIJIFk4BUE5AF0BfIA) | switching between frequencies | 1 | $8.50 | $8.50 | [Digikey](https://www.digikey.com/en/products/detail/semtech-corporation/LR1121IMLTRT/17874420?s=N4IgTCBcDaIDICUCMSxIJIFk4BUE5AF0BfIA) |
-| [PMOS](https://www.digikey.com/ordering/shoppingcart) | switchinggg | 1 | $1.00 | $1.00 | [Digikey](https://www.digikey.com/ordering/shoppingcart) |
-| [Crystals](https://www.digikey.com/en/products/detail/ecs-inc/ECS-320-8-36B-CKY-TR/9838841) | oscillator | 2 | $1.00 | $2.00 | [Digikey](https://www.digikey.com/en/products/detail/ecs-inc/ECS-320-8-36B-CKY-TR/9838841) |
-| [OLED display](https://www.aliexpress.us/item/3256812744946971.html?spm=a2g0o.productlist.main.1.501a406fAMM3r2&algo_pvid=2c6677da-cd5f-401e-835e-5e8a10f9ff8d&algo_exp_id=2c6677da-cd5f-401e-835e-5e8a10f9ff8d-0&pdp_ext_f=%7B%22order%22%3A%226%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%216.09%213.05%21%21%2140.56%2120.28%21%402101dedf17917463221333135e0d4c%2112000059771705326%21sea%21US%214570435753%21X%211%210%21n_tag%3A-29911%3Bd%3A125d364a%3Bm03_new_user%3A-29895&curPageLogUid=uw46ngtXYGyn&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005012931261723%7C_p_origin_prod%3A) | yay oled | 1 | $3.00 | $3.00 | [Aliexpress](https://www.aliexpress.us/item/3256812744946971.html?spm=a2g0o.productlist.main.1.501a406fAMM3r2&algo_pvid=2c6677da-cd5f-401e-835e-5e8a10f9ff8d&algo_exp_id=2c6677da-cd5f-401e-835e-5e8a10f9ff8d-0&pdp_ext_f=%7B%22order%22%3A%226%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%216.09%213.05%21%21%2140.56%2120.28%21%402101dedf17917463221333135e0d4c%2112000059771705326%21sea%21US%214570435753%21X%211%210%21n_tag%3A-29911%3Bd%3A125d364a%3Bm03_new_user%3A-29895&curPageLogUid=uw46ngtXYGyn&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005012931261723%7C_p_origin_prod%3A) |
-| [Coaxial Cable Connector](https://www.digikey.com/en/products/detail/joymax-electronics/CT-SAD010XM/27545740?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLlhPc1dZxH7xH-243o3hxbuTg&gclid=CjwKCAjw56zWBhB0EiwAdPOQOWw4M-0hIKGe3EWITAv2EoxIMrqBZxoaYGDgH_6waa2DjenvpbLA-hoCJDUQAvD_BwE) | antenna | 1 | $2.50 | $2.50 | [Digikey](https://www.digikey.com/en/products/detail/joymax-electronics/CT-SAD010XM/27545740?gclsrc=aw.ds&gad_source=1&gad_campaignid=20470400566&gbraid=0AAAAADrbLlhPc1dZxH7xH-243o3hxbuTg&gclid=CjwKCAjw56zWBhB0EiwAdPOQOWw4M-0hIKGe3EWITAv2EoxIMrqBZxoaYGDgH_6waa2DjenvpbLA-hoCJDUQAvD_BwE) |
-| [dual band antenna](https://radiomasterrc.com/products/dual-band-2-4ghz-sub-g-900mhz-antenna) | Antenna! | 1 | $15.00 | $15.00 | [RadioMaster](https://radiomasterrc.com/products/dual-band-2-4ghz-sub-g-900mhz-antenna) |
-| [PCB](https://jlcpcb.com) | PCB for all components | 1 | $13.00 | $13.00 | [JLCPCB](https://jlcpcb.com) |
-| **Parts subtotal** | — | — | — | **$67.60** | — |
-| **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$67.60** | — |
+Part	What it's for	Qty	Unit Price	Total	Vendor
+Battery Pack	Battery	1	$0.50	$0.50	AliExpress
+SD Card	SD card reader	1	$3.50	$3.50	Mouser
+USB-C Receptacle	USB plug-in	1	$1.00	$1.00	DigiKey
+Schottky Diode	Signal clearance	1	$3.50	$3.50	AliExpress
+Ferrite Bead	Ferrite bead	1	$1.10	$1.10	DigiKey
+0900FM15K0039001E	Frequency switching	2	$0.50	$1.00	DigiKey
+0900DP15A2450001E	Frequency switching	1	$1.00	$1.00	DigiKey
+ESP32-S3-WROOM-1-N8R8	Main controller	1	$7.00	$7.00	DigiKey
+PE4259	Frequency switching	3	$1.00	$3.00	DigiKey
+XC6220B331MR-G	Power regulation	1	$1.00	$1.00	DigiKey
+LR1121IMLTRT	Frequency switching	1	$8.50	$8.50	DigiKey
+PMOS	Switching	1	$1.00	$1.00	DigiKey
+Crystals	Oscillator	2	$1.00	$2.00	DigiKey
+OLED Display	Display	1	$3.00	$3.00	AliExpress
+Coaxial Cable Connector	Antenna connector	1	$2.50	$2.50	DigiKey
+Dual-Band Antenna	Antenna	1	$15.00	$15.00	RadioMaster
+PCB	PCB for all components	1	$13.00	$13.00	JLCPCB
+Parts Subtotal	—	—	—	$67.60	—
+Tax & Shipping	—	—	—	$0.00	—
+Total	—	—	—	$67.60	—
 ## notes
 this should hopefully work! i had to calculate impedance for the RF traces and such, and it should work fine. however, updates may be pushed and future versions may be made :D also i have a HAM radio license so double check that things are legal on your end.

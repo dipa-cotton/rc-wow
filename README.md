@@ -8,7 +8,8 @@ this project contains a LR1121, ESP32, a microSD card, a USBC receptical, a spot
 <img width="1256" height="480" alt="Screenshot 2026-10-11 at 3 38 33 PM" src="https://github.com/user-attachments/assets/a62a6ea4-1683-4d16-918c-98b492aab4be" />
 <img width="1089" height="729" alt="Screenshot 2026-10-11 at 3 38 23 PM" src="https://github.com/user-attachments/assets/864fdd39-2c9a-49f3-88ac-9fbf5a363d7c" />
 <img width="341" height="729" alt="Screenshot 2026-10-11 at 3 38 09 PM" src="https://github.com/user-attachments/assets/c6e39acd-50fe-4dc1-9ecd-0e02c6dcc3eb" />
-## Bill of Materials (BOM)
+
+## bom
 
 | Part | Purpose | Qty | Unit Price | Total | Vendor |
 |---|---|---:|---:|---:|---|

@@ -1,7 +1,9 @@
 # rc-wow
-custom RC Car Radio, with a LR1121 for dual band access!
+custom RC Car Radio, with an LR1121 for dual-band access! I made this because I have a broken RC Car at my home, and the radio system was quite outdated so having a more enhanced radio system will allow me to control the car from farther away!
 ## project overview
-this project contains a LR1121, ESP32, a microSD card, a USBC receptical, a spot for an OLED and a spot to add in a radio antenna, as well as other features to switch between frequencies and control power so it works both battery powered and when plugged in.
+this project contains an LR1121, ESP32, a microSD card, a USB-C receptacle, a spot for an OLED, and a spot to add a radio antenna, as well as other features to switch between frequencies and control power so it works both battery-powered and when plugged in.
+## how it works
+It is controlled by an esp32 and lr1121, with the espP32 serving as the microcontroller to take charge of all input and the lr1121 allowing the user to switch between different frequencies. There are ICs for this "switching" function. there is also a USB C receptical for input and control as well as a microSD card to log things that happen. The coax cable port is for the antenna. Resistors, decoupling capacitors, and Schottky diodes are used to prevent the board from exploding. The buttons are for reset and boot. There's an opening for an OLED display.
 ## pictures
 <img width="503" height="628" alt="Screenshot 2026-10-11 at 3 39 02 PM" src="https://github.com/user-attachments/assets/dade35c8-bc6a-4e18-a7ba-d620e84d15d0" />
 <img width="541" height="712" alt="Screenshot 2026-10-11 at 3 38 50 PM" src="https://github.com/user-attachments/assets/174747d2-55b4-4f43-a2e2-d8e47dc430bf" />
